@@ -1,2 +1,2 @@
-foo session-replication
+bar foo session-replication
 ===================
