@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>blank</groupId>
-	<artifactId>blank</artifactId>
+	<groupId>session-replication</groupId>
+	<artifactId>session-replication</artifactId>
 	<packaging>war</packaging>
 	<version>1.0</version>
-	<name>blank</name>
+	<name>session-replication</name>
 	<repositories>
 		<repository>
 			<id>eap</id>
@@ -72,7 +72,7 @@ jboss-eap-*-maven-repository/org/jboss/spec/jboss-javaee-6.0
 			<!-- http://maven.apache.org/guides/mini/guide-building-for-different-environments.html -->
 			<id>openshift</id>
 			<build>
-				<finalName>blank</finalName>
+				<finalName>session-replication</finalName>
 				<plugins>
 					<plugin>
 						<artifactId>maven-war-plugin</artifactId>
